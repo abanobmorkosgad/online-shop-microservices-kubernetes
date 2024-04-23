@@ -1,0 +1,8 @@
+appName: redis
+appReplicas: 2
+appImage: redis
+appVersion: alpine
+containerPort: 6379
+volumeName: redis-data
+volumePath: /data
+servicePort:  6379
